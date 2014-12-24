@@ -8,7 +8,6 @@
 - maven
 - [optional] bower
 
-## Below text comes directly from the above referenced repo
 ## Setup
 
 1. Clone the repository `git clone https://github.com/rcholic/NinjaAngular.git`
