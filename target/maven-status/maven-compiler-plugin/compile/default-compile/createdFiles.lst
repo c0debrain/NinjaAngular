@@ -1,0 +1,4 @@
+conf/Routes.class
+conf/Module.class
+controllers/ApplicationController.class
+controllers/ApplicationController$SimplePojo.class
