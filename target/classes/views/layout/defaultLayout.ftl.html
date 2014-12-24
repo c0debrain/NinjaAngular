@@ -1,6 +1,6 @@
 <#macro myLayout title="Layout example">
 <!DOCTYPE html>
-<html lang="en" ng-app="blogApp">
+<html lang="en" ng-app="ninjaApp">
   <head>
     <meta charset="utf-8">
     <title>${title}</title>
@@ -26,37 +26,16 @@
       }
     </style>
 
-      <script>
-          var blogApp = angular.module("blogApp", ['ngRoute', 'ngResource'])
-                  .config(['$routeProvider', function($routeProvider) {
-                      $routeProvider.when('/', {
-                          templateUrl: '/assets/partials/defaultPage.html'
-                      })
-                              .when('/link1', {
-                                  templateUrl: '/assets/partials/link1.html'
-                              })
-                              .when('/link2', {
-                                  templateUrl: '/assets/partials/link2.html'
-                              })
-                              .when('/link3', {
-                                  templateUrl: '/assets/partials/link3.html'
-                              })
-                              .otherwise({
-                                  templateUrl: '/assets/partials/otherwise.html'
-                              })
-                  }]);
 
-          blogApp.controller('blogController', function($scope){
-              $scope.message = "hello angularJS!";
-          });
-      </script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="/assets/bower_components/html5.js"></script>
+      <script src="/assets/angularApp/angularApp.js"></script>
+      <script src="/assets/angularApp/controllers/ninjaUserController.js"></script>
     <![endif]-->
   </head>
-<body ng-controller="blogController">
+<body ng-controller="ninjaUserController">
 
     <div class="container">
         <div class="panel panel-default">
