@@ -2,7 +2,7 @@
  * Created by guoliangwang on 12/23/14.
  */
 
-var ninjaApp = angular.module("ninjaApp", ['ngRoute', 'ngResource'])
+var ninjaApp = angular.module("ninjaApp", ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/', {
         templateUrl: '/assets/partials/defaultPage.html'
@@ -18,7 +18,7 @@ var ninjaApp = angular.module("ninjaApp", ['ngRoute', 'ngResource'])
         })
         .otherwise({
             templateUrl: '/assets/partials/otherwise.html'
-        })
+        });
     }]);
 
 

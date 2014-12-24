@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="controllers.ApiControllerDocTesterTest" time="4.156" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="controllers.ApiControllerDocTesterTest" time="6.339" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib"/>
@@ -59,6 +59,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="controllers.ApiControllerDocTesterTest" name="testGetIndex" time="3.835"/>
-  <testcase classname="controllers.ApiControllerDocTesterTest" name="testGetHelloWorldJson" time="0.321"/>
+  <testcase classname="controllers.ApiControllerDocTesterTest" name="testGetIndex" time="5.9"/>
+  <testcase classname="controllers.ApiControllerDocTesterTest" name="testGetHelloWorldJson" time="0.439"/>
 </testsuite>

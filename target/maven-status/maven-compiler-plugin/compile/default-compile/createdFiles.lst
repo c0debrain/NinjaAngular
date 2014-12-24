@@ -1,4 +1,11 @@
+testClient/RegisterUser.class
 conf/Routes.class
+com/iffcoder/dao/UserDao.class
+hibernate/HibernateUtil.class
 conf/Module.class
+com/iffcoder/models/UserProfile.class
+com/iffcoder/services/UserService.class
 controllers/ApplicationController.class
+com/iffcoder/models/User.class
 controllers/ApplicationController$SimplePojo.class
+com/iffcoder/services/UserServiceImpl.class

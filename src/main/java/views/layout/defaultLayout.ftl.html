@@ -15,7 +15,10 @@
       <script src="/assets/bower_components/angular/angular.min.js"></script>
       <script src="/assets/bower_components/angular-route/angular-route.min.js"></script>
       <script src="/assets/bower_components/angular-resource/angular-resource.min.js"></script>
-      <script src="/assets/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="/assets/angularApp/angularApp.js"></script>
+      <script src="/assets/angularApp/controllers/ninjaUserController.js"></script>
+
+
 
     <!-- Latest compiled and minified JavaScript -->
     
@@ -31,8 +34,7 @@
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="/assets/bower_components/html5.js"></script>
-      <script src="/assets/angularApp/angularApp.js"></script>
-      <script src="/assets/angularApp/controllers/ninjaUserController.js"></script>
+
     <![endif]-->
   </head>
 <body ng-controller="ninjaUserController">
@@ -77,9 +79,12 @@
         <#include "footer.ftl.html"/>
         
     </div> <!-- /container -->
-    <script type="text/javascript"src="/assets/webjars/jquery/2.1.1/jquery.js"></script>
+    <script src="/assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--
     <script type="text/javascript" src="/assets/webjars/tinymce-jquery/4.0.16/jscripts/tiny_mce/tiny_mce.js" ></script>
     <script type="text/javascript" src="/assets/webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    -->
 </body>
 </html>
 </#macro>
